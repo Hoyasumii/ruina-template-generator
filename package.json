@@ -1,7 +1,7 @@
 {
-  "name": "template-generator",
+  "name": "ruina-template-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template Generator Module for Ruina.js",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
     "@types/node": "^22.13.10",
     "eslint": "^9.22.0",
     "globals": "^16.0.0",
-    "tsup": "^8.4.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.1"

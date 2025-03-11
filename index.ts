@@ -41,21 +41,3 @@ export async function templateGenerator<Args extends object>(
 
   return true;
 }
-
-await templateGenerator<{ message: string }>(
-  {
-    name: "testing",
-    path: "templates",
-  },
-  {
-    name: "hello world",
-    path: "out",
-  },
-  {
-    message: "hello world",
-  },
-  {
-    fileNamingPattern: "pascal-case",
-    fileType: "ts",
-  }
-);
