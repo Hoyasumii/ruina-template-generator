@@ -1,4 +1,4 @@
-import { FileNaming } from "./file-naming.js";
+import { FileNaming } from "ruina-nominator";
 
 export interface WriteMethods {
   replaceIfExists?: boolean;
