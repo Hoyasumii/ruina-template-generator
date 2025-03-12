@@ -1,4 +1,4 @@
-import { readdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { existsSync } from "node:fs";
 import { renderFile } from "ejs";
@@ -16,7 +16,10 @@ export async function templateGenerator<Args extends object>(
   options: WriteMethods
 ): Promise<boolean> {
   if (!existsSync(input.path)) return false;
-  if (!existsSync(out.path)) return false;
+
+  if (!existsSync(out.path)) {
+    await mkdir(out.path);
+  }
 
   const inputItems = filterEJSFilesAndListItems(await readdir(input.path));
 
