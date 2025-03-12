@@ -1,4 +1,4 @@
-import { FileNaming } from "types";
+import { FileNaming } from "@/types/index.js";
 
 export function generateFilename(
   name: string,

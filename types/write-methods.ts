@@ -1,4 +1,4 @@
-import { FileNaming } from "./file-naming";
+import { FileNaming } from "./file-naming.js";
 
 export interface WriteMethods {
   replaceIfExists?: boolean;

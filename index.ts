@@ -6,8 +6,8 @@ import {
   filterEJSFilesAndListItems,
   generateFilename,
   selectEJSFile,
-} from "core";
-import { IOManager, WriteMethods } from "types";
+} from "@/core/index.js";
+import { IOManager, WriteMethods } from "@/types/index.js";
 
 export async function templateGenerator<Args extends object>(
   input: IOManager,
