@@ -1,6 +1,6 @@
 {
   "name": "ruina-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Template Generator Module for Ruina.js",
   "type": "module",
   "main": "dist/index.js",
@@ -12,7 +12,8 @@
   ],
   "exports": {
     "./core": "./dist/core/index.js",
-    "./types": "./dist/types/index.js"
+    "./types": "./dist/types/index.js",
+    "./index": "./dist/index.js"
   },
   "keywords": [],
   "scripts": {
