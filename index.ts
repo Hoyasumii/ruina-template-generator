@@ -41,3 +41,5 @@ export async function templateGenerator<Args extends object>(
 
   return true;
 }
+
+export default templateGenerator;
