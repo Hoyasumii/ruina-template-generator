@@ -1,6 +1,6 @@
 {
   "name": "ruina-generator",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Template Generator Module for Ruina.js",
   "type": "module",
   "main": "dist/index.js",
@@ -34,6 +34,7 @@
     "typescript-eslint": "^8.26.1"
   },
   "dependencies": {
-    "ejs": "^3.1.10"
+    "ejs": "^3.1.10",
+    "ruina-nominator": "^0.0.1"
   }
 }

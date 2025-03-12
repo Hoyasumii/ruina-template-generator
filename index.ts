@@ -4,10 +4,10 @@ import { existsSync } from "node:fs";
 import { renderFile } from "ejs";
 import {
   filterEJSFilesAndListItems,
-  generateFilename,
   selectEJSFile,
 } from "@/core/index.js";
 import { IOManager, WriteMethods } from "@/types/index.js";
+import { nominator } from "ruina-nominator";
 
 export async function templateGenerator<Args extends object>(
   input: IOManager,
@@ -29,7 +29,7 @@ export async function templateGenerator<Args extends object>(
 
   const renderedFile = await renderFile(targetEJSilePath, args);
 
-  const fileName = generateFilename(
+  const fileName = nominator(
     out.name,
     options.fileType,
     options.fileNamingPattern

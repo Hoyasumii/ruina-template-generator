@@ -11,6 +11,9 @@ importers:
       ejs:
         specifier: ^3.1.10
         version: 3.1.10
+      ruina-nominator:
+        specifier: ^0.0.1
+        version: 0.0.1
     devDependencies:
       '@eslint/js':
         specifier: ^9.22.0
@@ -705,6 +708,9 @@ packages:
   reusify@1.1.0:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+
+  ruina-nominator@0.0.1:
+    resolution: {integrity: sha512-+DQ6r1kzTqiaCDwEaJ/7yex1oyJ/XTXTlePu6CaHdVLRaktlFDmTrY1W02zL93posTJ1tdp2gUYSVzrc2uj8cQ==}
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -1418,6 +1424,8 @@ snapshots:
   resolve-pkg-maps@1.0.0: {}
 
   reusify@1.1.0: {}
+
+  ruina-nominator@0.0.1: {}
 
   run-parallel@1.2.0:
     dependencies:
